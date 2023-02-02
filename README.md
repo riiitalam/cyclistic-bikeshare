@@ -15,7 +15,7 @@ Data cleaning included eliminating duplicate row and white spaces, data points w
 Process Data
 
 
-SQLite was used to process the dataset. SQL codes written for data processing and analysis is documented in 
+DBbrowser for SQLite was used to process the dataset. All SQL codes written for data processing and analysis are documented in "SQLscript for divvy bikeshare project.sql" file uploaded in this repository. Link: https://github.com/riiitalam/cyclistic-bikeshare/blob/401515de05df551d0e592446ce34fc5151041a2f/SQLscript%20for%20divvy%20bikeshare%20project.sql
 
 Analyse Data
 
