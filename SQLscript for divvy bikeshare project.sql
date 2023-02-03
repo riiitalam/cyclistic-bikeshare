@@ -1,8 +1,25 @@
 /* Cyclistic (Divvy) Bikeshare Casestudy 
 SQLite 3.12.2 is used for SQL codes execution for this project
-Data Source: Jan - Dec 2022 from Divvy Bikes (https://www.divvybikes.com/system-data)*/
 
-/* To merge all months data into "202212-divvy-tripdata" */
+/* Dataset's Metadata-
+Data Source: Jan - Dec 2022 from Divvy Bikes (https://www.divvybikes.com/system-data)
+Contains 13 columns - 
+	"ride_id"	TEXT,
+	"rideable_type"	TEXT,
+	"started_at"	TEXT,
+	"ended_at"	TEXT,
+	"start_station_name"	TEXT,
+	"start_station_id"	TEXT,
+	"end_station_name"	TEXT,
+	"end_station_id"	TEXT,
+	"start_lat"	REAL,
+	"start_lng"	REAL,
+	"end_lat"	REAL,
+	"end_lng"	REAL,
+	"member_casual"	TEXT
+*/
+
+/* To merge all months' datasets into "202212-divvy-tripdata" */
 INSERT INTO "202212-divvy-tripdata"
 SELECT *
 FROM "202211-divvy-tripdata";
