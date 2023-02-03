@@ -23,7 +23,7 @@ To analyze bike usage, ride duration is an important factor. A new column 'ride 
 
 Share Findings
 
-Tableau visualizations were shared and published at https://public.tableau.com/app/profile/rita.lam
+Interactive Tableau visualizations are shared and published at https://public.tableau.com/app/profile/rita.lam
 Full analysis is summarized and shared in this powerpoint presentation - https://docs.google.com/presentation/d/1eEnF-cGVGcZ82xgQ-yo-QwpkRvO9sdm6fwXs-wqbA-o/edit?usp=sharing
 
 Act Phase
